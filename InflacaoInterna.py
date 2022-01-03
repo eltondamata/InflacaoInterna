@@ -123,9 +123,9 @@ sender = 'elton.mata@martins.com.br'
 subject = "Inflação Interna"
 tabela = build_table(df_full, 'blue_light', text_align='right')
 
-body = f"""<html><body><p>Inflação Interna <i>(percentual acumulado em 12 meses findos no mês apreesntado)</i></p>
+body = f"""<html><body><p>Inflação Interna <i>(percentual acumulado em 12 meses findos no mês apresentado)</i></p>
 {tabela}
-<p><i>(email programado para envio automático todo dia 2)</i></p>
+<p><i>(email automático)</i></p>
 </body></html>
 """
 #anexar arquivo
